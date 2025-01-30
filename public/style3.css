@@ -1,0 +1,213 @@
+html, body{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+     overflow-x: hidden;
+  overflow-y:hidden;
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+    min-height: 100vh;
+  display: flex;
+  flex-direction:column;
+}
+
+
+#scrn {
+  position: absolute;
+  display: block;
+  margin: 0;
+  height: auto;
+  width: 1315px;
+  margin-left: auto;
+  margin-right: auto;
+  flex:1;
+}
+
+
+#btnback1 {
+   position: absolute;
+  z-index: 1000;
+  top: 500px;
+height: auto;
+  width: 180px;
+  filter: drop-shadow(20px 10px 0px black);
+    left: 10px;
+}
+
+
+#btnback1:hover {
+  filter: brightness(80%);
+}
+
+@font-face{
+  font-family:arcadealternate;
+  src: url(https://cdn.glitch.global/3b0c555a-66e1-432a-baca-4bf522e55a01/ArcadeAlternate.ttf?v=1735290960853);
+}
+
+#top {
+  position: absolute;
+  top: -2px;
+  z-index: 1000;
+  font-family: arcadealternate;
+  color: #824ced;
+}
+
+@font-face {
+  font-family: plank;
+  src: url(https://cdn.glitch.global/3b0c555a-66e1-432a-baca-4bf522e55a01/PLANK___.TTF?v=1735298004662)
+}
+
+#title {
+  z-index: 1000;
+  position: absolute;
+  font-family: plank;
+  color: #b999fa;
+  -webkit-text-stroke: 0.5px #814beb;
+  font-size: 80px;
+  top: 40px;
+  right: 280px;
+}
+
+#caption {
+  position: absolute;
+  z-index:1000;
+  font-family: arcadealternate;
+  font-size: 25px;
+  top: 60px;
+  right: 300px;
+  color: #F862FF;
+}
+
+#hrtlndecor {
+  z-index: 1000;
+  height: auto;
+  width: 400px;
+  position: absolute;
+  top: 55px;
+  right: 250px;
+}
+
+#dialoguebox {
+z-index: 999;
+  position: absolute;
+  height: auto;
+  width: 1200px;
+  bottom: -10px;
+}
+
+#dialogue {
+  z-index: 999;
+}
+
+#name {
+  z-index: 999;
+  position: absolute;
+  font-size: 55px;
+  font-family: arcadealternate;
+  top: 389px;
+  left: 450px;
+  color: #ad8cff;
+}
+
+#dialogue {
+  z-index: 999;
+  position: absolute;
+  font-size: 35px;
+  font-family: arcadealternate;
+  top: 490px;
+  left: 450px;
+  color: #ad8cff;
+}
+
+#changename, #changebackground {
+  z-index: 999;
+  font-family: arcadealternate;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  left: 270px;
+}
+
+#changename {
+    top: 120px;
+}
+
+#changebackground {
+  top: 170px;
+}
+
+#changedialogue {
+   z-index: 1000;
+  font-family: arcadealternate;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 375px;
+    right: 300px;
+}
+
+#hideshow {
+   z-index: 1000;
+  font-size: 60px;
+   position: absolute;
+  top: 20px;
+    left: 270px;
+  font-family: arcadealternate;
+  color:white;
+}
+
+#showhide {
+   z-index: 1000;
+  font-size: 60px;
+   position: absolute;
+  top: 20px;
+    left: 270px;
+  font-family: arcadealternate;
+  color:white;
+  display:none;
+}
+
+#changename:hover, #changebackground:hover, #changedialogue:hover, #hideshow:hover, #showhide:hover{
+  filter: brightness(80%);
+}
+
+#dialogueinput {
+  z-index: 1000;
+  width: 250px;
+  height: 50px;
+   position: absolute;
+  top: 350px;
+    right: 325px;
+}
+
+footer {
+  z-index:1000;
+  color:#824ced;
+  margin-top:auto;
+  padding: 10px;
+  background-color: white;
+  position:absolute;
+  bottom:0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  text-align:center;
+  font-family: arcadealternate;
+  font-size: 11px;
+}
+
+#bgimg {
+   width: 100%;
+  height: 100%;
+  object-fit: cover;  
+  position: absolute; 
+  top: 0;
+  left: 0;
+  flex:1;
+}
